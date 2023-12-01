@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: rgb(27, 27, 27);
+  background-color: #303030;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -29,11 +29,11 @@ h3 {
 
 h4 {
   font-family: 'Cairo Play', sans-serif;
-  text-align: left;
+  text-align: center;
 }
 
 h5 {
-  text-align: center;
+  text-align: left;
   left: 110px;
   font-family: 'Bungee Shade', cursive;
 }
@@ -60,5 +60,5 @@ bold {
 }
 
 code {
-  color: violet;
+  color: #9400D3;
 }
