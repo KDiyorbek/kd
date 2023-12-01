@@ -22,6 +22,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+  font-style: bold;
 }
 
 h3 {
@@ -44,7 +45,7 @@ h5 {
 
 h6 {
   text-align: right;
-  margin: 10px;
+  margin: 20px;
   font-family: 'Rampart One', cursive;
   font-size: 15px;
 }
