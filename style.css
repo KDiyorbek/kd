@@ -50,6 +50,10 @@ p {
   font-size: 60px;
 }
 
+a {
+  text-decoration: none;
+}
+
 strong {
   color: red;
 }
