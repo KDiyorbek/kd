@@ -1,6 +1,7 @@
 body {
   width: 100%;
   background-color: #303030;
+  text-decoration: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -39,7 +40,7 @@ h5 {
 
 h6 {
   text-align: right;
-  margin: 20px;
+  margin: 17px;
   font-family: 'Rampart One', cursive;
   font-size: 15px;
 }
@@ -56,7 +57,7 @@ a {
 }
 
 strong {
-  color: red;
+  color: rgb(241, 0, 7);
 }
 
 bold {
