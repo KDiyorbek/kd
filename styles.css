@@ -37,6 +37,11 @@ h1 {
   font-family: 'Press Start 2P', cursive;
   width: 100%;
   font-size: 30px;
+  opacity: 0;
+}
+
+h1:hover {
+  opacity: 100;
 }
 
 h2 {
