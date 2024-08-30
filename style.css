@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  text-decoration: none;
+  background-color: rgb(27, 27, 27);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -36,12 +36,8 @@ button {
 h1 {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  font-size: 33px;
-  opacity: 0;
-}
-
-h1:hover {
-  opacity: 100;
+  width: 100%;
+  font-size: 30px;
 }
 
 h2 {
