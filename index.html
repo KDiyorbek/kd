@@ -37,6 +37,9 @@
     <script>
         const lockScreen = document.getElementById("lockScreen");
         const previewImage = document.getElementById("previewImage");
+        document.getElementById("number").addEventListener("touchstart", function(){
+            this.focus();
+        })
 
         number.addEventListener("mouseenter", () => previewImage.style.display = "block");
         number.addEventListener("focus", () => previewImage.style.display = "block");
