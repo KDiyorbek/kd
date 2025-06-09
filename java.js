@@ -10,7 +10,7 @@ function hideLockScreen() {
 
 function checkNumber() {
   var number = document.getElementById("number").value;
-  if (number === "20") {
+  if (number === "21") {
       hideLockScreen();
       // Redirect to the main content or perform other actions
   } else {

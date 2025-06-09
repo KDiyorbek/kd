@@ -49,6 +49,11 @@ h2 {
   font-size: xx-large;
 }
 
+img {
+  left: 100%;
+  transform: translateX(100%);
+}
+
 h3 {
   text-align: center;
   color: gray;
@@ -96,8 +101,4 @@ bold {
 
 code {
   color: #9400D3;
-}
-
-img:hover {
-  opacity: 0;
 }

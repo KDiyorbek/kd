@@ -28,10 +28,20 @@
     
     <div id="lockScreen" class="lock-screen">
         <div class="lock-screen-content">
-            <h2>how old am i ?<br><img src="pic/eye looking.gif" width="55px" height="50px"> </h2>
+            <h2>how old am i ?</h2>
+            <img id="previewImage" src="pic/eye looking.gif" style="display: none;" width="55px" height="50px">
             <input type="number" id="number" placeholder="* enter password or number...">
             <button onclick="checkNumber()">🔓 unlock</button>
         </div>
     </div>
+    <script>
+        const lockScreen = document.getElementById("lockScreen");
+        const previewImage = document.getElementById("previewImage");
+
+        number.addEventListener("mouseenter", () => previewImage.style.display = "block");
+        number.addEventListener("focus", () => previewImage.style.display = "block");
+        number.addEventListener("mouseleave", () => previewImage.style.display = "none");
+        number.addEventListener("blur", () => previewImage.style.display = "none");
+    </script>
 </body>
 </html>
