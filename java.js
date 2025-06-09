@@ -8,9 +8,9 @@ function hideLockScreen() {
   lockScreen.style.display = "none";
 }
 
-function checkPassword() {
-  var password = document.getElementById("password").value;
-  if (password === "20") {
+function checkNumber() {
+  var number = document.getElementById("number").value;
+  if (number === "20") {
       hideLockScreen();
       // Redirect to the main content or perform other actions
   } else {
@@ -22,10 +22,10 @@ function checkPassword() {
 window.onload = showLockScreen;
 
 // Add event listener to password input field
-var passwordInput = document.getElementById("password");
-passwordInput.addEventListener("input", function() {
+var numberInput = document.getElementById("number");
+numberdInput.addEventListener("input", function() {
   var button = document.querySelector(".lock-screen-content button");
-  if (passwordInput.value !== "") {
+  if (numberInput.value !== "") {
       button.style.display = "block";
   } else {
       button.style.display = "none";
